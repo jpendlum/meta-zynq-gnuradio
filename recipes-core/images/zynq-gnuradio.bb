@@ -10,8 +10,10 @@ CORE_IMAGE_EXTRA_INSTALL = "\
     git \
     gnuradio \
     emacs \
+    openssh-sftp-server \
+    openssh-sftp \
     kernel-dev \
-    u-boot-xlnx \	
+    u-boot-xlnx \
     "
 
 inherit core-image
